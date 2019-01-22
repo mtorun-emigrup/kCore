@@ -6,7 +6,6 @@
     <div class="self-center" v-if="nbPages > 1">
       <q-pagination v-model="currentPage" :max="nbPages" style="padding: 18px" @input="onPageChanged" />
     </div>
-  </div>
   </q-list>
   <q-list v-else class="column items-center">
     <div>
